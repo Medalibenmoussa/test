@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Dubois | Designer & Développeuse Créative</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">JD.</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Designer & Développeuse Créative</h1>
+                <p class="hero-subtitle">Je transforme des idées complexes en expériences web élégantes et intuitives.</p>
+                <a href="#portfolio" class="btn-primary">Voir mes créations</a>
+            </div>
+        </section>
+
+        <section id="about" class="section-container animate-on-scroll">
+            <h2 class="section-title">Qui suis-je ?</h2>
+            <div class="about-content">
+                <!-- Photo de profil -->
+                <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=250&q=80" 
+                     alt="Photo de Julie Dubois" class="about-photo">
+                <p class="about-text">Passionnée par le design et la technologie, j'aide les entreprises à se démarquer grâce à des sites web sur mesure. Mon approche allie esthétique moderne et performance technique pour garantir une expérience utilisateur inoubliable.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section-container animate-on-scroll">
+            <h2 class="section-title">Derniers Projets</h2>
+            <div class="portfolio-grid">
+                <!-- Projet Alpha -->
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                         alt="Projet Alpha - Site Corporate">
+                    <div class="card-overlay">
+                        <h3>Site Corporate - Alpha Inc.</h3>
+                        <p>Technos: HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+
+                <!-- Projet Beta -->
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                         alt="Projet Beta - Landing Page">
+                    <div class="card-overlay">
+                        <h3>Landing Page - Beta Startup</h3>
+                        <p>Technos: Figma, Webflow</p>
+                    </div>
+                </div>
+
+                <!-- Projet Gamma -->
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                         alt="Projet Gamma - E-commerce">
+                    <div class="card-overlay">
+                        <h3>E-commerce - Gamma Shop</h3>
+                        <p>Technos: Shopify, Liquid</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container animate-on-scroll">
+             <h2 class="section-title">Travaillons ensemble</h2>
+             <form class="contact-form">
+                 <input type="text" name="name" placeholder="Votre nom" required>
+                 <input type="email" name="email" placeholder="Votre email" required>
+                 <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                 <button type="submit" class="btn-primary">Envoyer le message</button>
+             </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Julie Dubois. Tous droits réservés.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
